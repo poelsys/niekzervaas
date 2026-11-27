@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-[17px] leading-[1.7];
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .prose-niek {
+    @apply max-w-prose;
+  }
+}
