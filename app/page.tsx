@@ -48,12 +48,12 @@ export default function HomePage() {
           linkLabel="Bekijk de film"
         />
         <HomeCard
-          href="/lezing"
-          src="/fotos/IMG_7547.JPG"
-          alt="Niek in zijn rolstoel tijdens een bijeenkomst in een kring"
-          title="Lezing"
-          text="Dit mooie ontroerende verhaal willen wij graag delen met een ieder die het wil horen."
-          linkLabel="Interesse in een LEZING over mij en mijn gedachtegoed?"
+          href="/over-niek"
+          src="/fotos/IMG_7549.JPG"
+          alt="Portret van Niek"
+          title="Over Niek"
+          text="Wanneer je naar mij kijkt, zie je iemand met een zwaar gehandicapt lichaam, die niet kan lopen of praten en overal ondersteuning bij nodig heeft."
+          linkLabel="Lees meer over Niek"
         />
       </section>
 

@@ -11,7 +11,6 @@ const navItems = [
   { href: "/gedachten", label: "Gedachten" },
   { href: "/media", label: "Media" },
   { href: "/bestellen", label: "Bestellen" },
-  { href: "/lezing", label: "Lezing" },
   { href: "/agenda", label: "Agenda" },
 ] as const;
 

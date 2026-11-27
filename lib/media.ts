@@ -81,8 +81,7 @@ export const artikelen: Artikel[] = [
       "Hij besloot zich te specialiseren in een fusie van Nederlandse en Indiase filmstijlen door in India een filmopleiding te doen aan de 'Asian Academy of Film and Television'. Tijdens zijn studie in India schreef hij columns over zijn ervaringen in India voor het maandelijkse tijdschrift 'Bijeen'. Met de Kids & Docs documentaire 'Jeuk' maakte hij zijn regiedebuut. De film werd op meerdere filmfestivals in Spanje, Canada, Engeland en Tsjechië vertoond. En werd uitgezonden door Z@ppelin.",
       "Voor de publieke omroep OHM maakte hij verschillende spiritueel getinte documentaires, zoals 'The Best Part of my Life' en 'Santosh'. Die gingen over de laatste fase van een terminaal zieke vrouw en mensen die ondanks hun handicap positief in het leven proberen te staan. Na het schrijven en regisseren van documentaires en films begon Rishi voor onder andere reclamebureau Noise de serie 'Faris en Floris' te ontwikkelen en te schrijven. In deze online serie van de Postbank onderzochten Farid (Mohammed Chaara) en Floris (Miro Klooserman) economische mythes. Rishi schreef ook het scenario van de 'Easy Blue' commercial en maakt zijn reclame regie debuut met de starterslijn van de Postbank.",
       "Met de tijdens de IDFA Documentaire Workshop ontwikkelde film, 'Bollywood Blues', maakt hij zijn debuut als regisseur van de lange auteursdocumentaire. De film is geproduceerd door Pieter van Huystee Producties en de NPS. 'Bollywood Blues' gaat 26 november 2008 in première tijdens de IDFA en wordt begin maart 2009 uitgezonden door de NPS, Holland Doc. 18 februari 2013 wordt zijn nieuwe film 'Een Dansend Hart' uitgezonden door de NCRV.",
-      "Bron: http://www.rishichamman.nl",
-      "Officiële website: http://www.rishichamman.nl · Twitter: www.twitter.com/RishiChamman",
+      "Bron: rishichamman.nl",
     ],
   },
 ];
