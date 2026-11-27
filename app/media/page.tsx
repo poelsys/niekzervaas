@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { fotos } from "@/lib/fotos";
 import { artikelen, filmAlineas } from "@/lib/media";
 
 const filmUrl = "https://www.youtube.com/watch?v=umVf3aZ4pPw";
@@ -68,6 +69,31 @@ export default function MediaPage() {
       </section>
 
       <section>
+        <h2 className="text-3xl">Foto&apos;s</h2>
+        <ul className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6">
+          {fotos.slice(0, 4).map((foto) => (
+            <li key={foto.bestand}>
+              <div className="relative aspect-square overflow-hidden rounded-2xl">
+                <Image
+                  src={`/fotos/${foto.bestand}`}
+                  alt={foto.alt}
+                  fill
+                  sizes="(min-width: 768px) 14rem, 50vw"
+                  className="object-cover"
+                />
+              </div>
+            </li>
+          ))}
+        </ul>
+        <Link
+          href="/media/fotos"
+          className="mt-8 inline-block rounded-md bg-niek px-5 py-2.5 text-white no-underline"
+        >
+          Bekijk alle foto&apos;s
+        </Link>
+      </section>
+
+      <section>
         <h2 className="text-3xl">Artikelen</h2>
         <ul className="mt-8 grid gap-10 md:grid-cols-3 md:gap-8">
           {artikelen.map((artikel) => (
@@ -83,14 +109,6 @@ export default function MediaPage() {
             </li>
           ))}
         </ul>
-        <p className="mt-10">
-          <Link
-            href="/media/fotos"
-            className="text-sm text-zee underline underline-offset-4"
-          >
-            Foto&apos;s
-          </Link>
-        </p>
       </section>
     </div>
   );
