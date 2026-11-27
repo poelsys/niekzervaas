@@ -145,21 +145,29 @@ export default function OverNiekPage() {
         </ol>
       </section>
 
-      <section className="grid gap-6 md:grid-cols-3">
-        {photos.map((photo) => (
-          <div
-            key={photo.src}
-            className="relative aspect-[4/3] overflow-hidden rounded-2xl"
-          >
-            <Image
-              src={photo.src}
-              alt={photo.alt}
-              fill
-              sizes="(min-width: 768px) 18rem, 100vw"
-              className={`object-cover ${photo.position}`}
-            />
-          </div>
-        ))}
+      <section>
+        <div className="grid gap-6 md:grid-cols-3">
+          {photos.map((photo) => (
+            <div
+              key={photo.src}
+              className="relative aspect-[4/3] overflow-hidden rounded-2xl"
+            >
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                fill
+                sizes="(min-width: 768px) 18rem, 100vw"
+                className={`object-cover ${photo.position}`}
+              />
+            </div>
+          ))}
+        </div>
+        <Link
+          href="/media/fotos"
+          className="mt-8 inline-block rounded-md bg-niek px-5 py-2.5 text-white no-underline"
+        >
+          Bekijk alle foto&apos;s
+        </Link>
       </section>
     </div>
   );
