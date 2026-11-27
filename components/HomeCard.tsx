@@ -20,36 +20,23 @@ export default function HomeCard({
 }: HomeCardProps) {
   return (
     <article className="flex flex-col">
-      <div className="relative aspect-square overflow-hidden rounded-2xl bg-sand">
+      <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
         <Image
           src={src}
           alt={alt}
           fill
           sizes="(min-width: 768px) 18rem, 100vw"
-          className="object-contain"
+          className="object-cover"
         />
       </div>
-      <h2 className="mt-5 text-xl">
-        {linkLabel === title ? (
-          <Link
-            href={href}
-            className="text-niek underline decoration-niek/30 underline-offset-4"
-          >
-            {title}
-          </Link>
-        ) : (
-          title
-        )}
-      </h2>
-      <p className="mt-3">{text}</p>
-      {linkLabel === title ? null : (
-        <Link
-          href={href}
-          className="mt-4 inline-block text-zee underline underline-offset-4"
-        >
-          {linkLabel}
-        </Link>
-      )}
+      <h2 className="mt-5 text-xl no-underline">{title}</h2>
+      <p className="mt-3 flex-1">{text}</p>
+      <Link
+        href={href}
+        className="mt-4 inline-block text-zee underline underline-offset-4"
+      >
+        {linkLabel}
+      </Link>
     </article>
   );
 }

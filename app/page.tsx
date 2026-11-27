@@ -35,7 +35,7 @@ export default function HomePage() {
           href="/bestellen"
           src="/fotos/IMG_7566.JPG"
           alt="Omslag van het boek Uit de bron"
-          title="UIT DE BRON"
+          title="Uit de bron"
           text="Liefdevolle helende teksten van Niek."
           linkLabel="Ik wil het boek UIT DE BRON bestellen"
         />
@@ -45,13 +45,13 @@ export default function HomePage() {
           alt="Filmposter van Een dansend hart"
           title="Een dansend hart"
           text="De film is nog steeds beschikbaar: EEN DANSEND HART, gemaakt van mijn leven en mijn boodschap door mijn goede vriend en filmmaker Rishi Chamman."
-          linkLabel="Een dansend hart"
+          linkLabel="Bekijk de film"
         />
         <HomeCard
           href="/lezing"
           src="/fotos/IMG_7547.JPG"
           alt="Niek in zijn rolstoel tijdens een bijeenkomst in een kring"
-          title="LEZING"
+          title="Lezing"
           text="Dit mooie ontroerende verhaal willen wij graag delen met een ieder die het wil horen."
           linkLabel="Interesse in een LEZING over mij en mijn gedachtegoed?"
         />
