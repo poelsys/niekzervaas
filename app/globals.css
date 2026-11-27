@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    font-family: theme("fontFamily.sans");
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: theme("fontFamily.serif");
+    font-weight: 600;
+    line-height: 1.3;
+    color: theme("colors.niek");
+  }
+
+  a {
+    color: theme("colors.zee");
+  }
+}
+
+@layer components {
+  .prose-niek {
+    @apply max-w-prose;
+  }
+}
